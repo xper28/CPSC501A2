@@ -1,0 +1,10 @@
+======================================================
+Filename: script6.txt
+Running Test: [LClassB;@12a3a380
+Recursive: true
+Class name: [LClassB;
+Type: class ClassB
+
+Length: 12
+-Array: [null, null, null, null, null, null, null, null, null, null, null, null, ]
+======================================================

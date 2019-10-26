@@ -1,0 +1,1663 @@
+======================================================
+Filename: script3.txt
+Running Test: ClassB
+Recursive: true
+
+--------------------------
+Class name: ClassB
+--------------------------
+Immediate superclass: ClassC
+
+Interfaces implemented: 
+
+	--------------------------
+	Class name: java.lang.Runnable
+	--------------------------
+	No immediate superclass!
+	Interfaces implemented: 
+	none
+
+	Constructor metadata: 
+	none
+
+	Methods declared: 
+	-Method 1: run
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: public abstract
+
+	Fields: 
+
+Constructor metadata: 
+-Constructor name: ClassB
+-Access modifier: public
+
+Methods declared: 
+-Method 1: run
+-Exeptions thrown: 
+Parameter types: 
+-Access modifier: public
+
+-Method 2: toString
+-Exeptions thrown: 
+Parameter types: 
+-Access modifier: public
+
+-Method 3: func3
+-Exeptions thrown: 
+Parameter types: 
+--int
+-Access modifier: public
+
+
+	--------------------------
+	Class name: ClassC
+	--------------------------
+	Immediate superclass: ClassD
+
+	Interfaces implemented: 
+
+		--------------------------
+		Class name: InterfaceA
+		--------------------------
+		No immediate superclass!
+		Interfaces implemented: 
+
+			--------------------------
+			Class name: InterfaceB
+			--------------------------
+			No immediate superclass!
+			Interfaces implemented: 
+			none
+
+			Constructor metadata: 
+			none
+
+			Methods declared: 
+			-Method 1: func0
+			-Exeptions thrown: 
+			--java.lang.Exception
+			Parameter types: 
+			--int
+			--boolean
+			-Access modifier: public abstract
+
+			Fields: 
+
+		Constructor metadata: 
+		none
+
+		Methods declared: 
+		-Method 1: func2
+		-Exeptions thrown: 
+		--java.lang.Exception
+		--java.lang.ArithmeticException
+		--java.lang.IllegalMonitorStateException
+		Parameter types: 
+		--java.lang.String
+		-Access modifier: public abstract
+
+		-Method 2: func1
+		-Exeptions thrown: 
+		--java.lang.Exception
+		Parameter types: 
+		--int
+		--double
+		--boolean
+		--java.lang.String
+		-Access modifier: public abstract
+
+		Fields: 
+
+	Constructor metadata: 
+	-Constructor name: ClassC
+	-Access modifier: public
+	-Constructor name: ClassC
+	-Access modifier: public
+	-Parameter #1 type: int
+	-Parameter #2 type: int
+
+	Methods declared: 
+	-Method 1: run
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: public
+
+	-Method 2: toString
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: public
+
+	-Method 3: func2
+	-Exeptions thrown: 
+	--java.lang.Exception
+	--java.lang.ArithmeticException
+	--java.lang.IllegalMonitorStateException
+	Parameter types: 
+	--java.lang.String
+	-Access modifier: public
+
+	-Method 4: func1
+	-Exeptions thrown: 
+	--java.lang.Exception
+	Parameter types: 
+	--int
+	--double
+	--boolean
+	--java.lang.String
+	-Access modifier: public
+
+	-Method 5: func0
+	-Exeptions thrown: 
+	--java.lang.Exception
+	Parameter types: 
+	--int
+	--boolean
+	-Access modifier: public
+
+	-Method 6: func3
+	-Exeptions thrown: 
+	Parameter types: 
+	--int
+	-Access modifier: public abstract
+
+
+		--------------------------
+		Class name: ClassD
+		--------------------------
+		Immediate superclass: java.lang.Object
+
+		Interfaces implemented: 
+		none
+
+		Constructor metadata: 
+		-Constructor name: ClassD
+		-Access modifier: public
+		-Constructor name: ClassD
+		-Access modifier: public
+		-Parameter #1 type: int
+
+		Methods declared: 
+		-Method 1: toString
+		-Exeptions thrown: 
+		Parameter types: 
+		-Access modifier: public
+
+		-Method 2: getVal3
+		-Exeptions thrown: 
+		Parameter types: 
+		-Access modifier: public
+
+
+			--------------------------
+			Class name: java.lang.Object
+			--------------------------
+			No immediate superclass!
+			Interfaces implemented: 
+			none
+
+			Constructor metadata: 
+			-Constructor name: java.lang.Object
+			-Access modifier: public
+
+			Methods declared: 
+			-Method 1: finalize
+			-Exeptions thrown: 
+			--java.lang.Throwable
+			Parameter types: 
+			-Access modifier: protected
+
+			-Method 2: wait
+			-Exeptions thrown: 
+			--java.lang.InterruptedException
+			Parameter types: 
+			-Access modifier: public final
+
+			-Method 3: wait
+			-Exeptions thrown: 
+			--java.lang.InterruptedException
+			Parameter types: 
+			--long
+			--int
+			-Access modifier: public final
+
+			-Method 4: wait
+			-Exeptions thrown: 
+			--java.lang.InterruptedException
+			Parameter types: 
+			--long
+			-Access modifier: public final native
+
+			-Method 5: equals
+			-Exeptions thrown: 
+			Parameter types: 
+			--java.lang.Object
+			-Access modifier: public
+
+			-Method 6: toString
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public
+
+			-Method 7: hashCode
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public native
+
+			-Method 8: getClass
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public final native
+
+			-Method 9: clone
+			-Exeptions thrown: 
+			--java.lang.CloneNotSupportedException
+			Parameter types: 
+			-Access modifier: protected native
+
+			-Method 10: notify
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public final native
+
+			-Method 11: notifyAll
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public final native
+
+			-Method 12: registerNatives
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: private static native
+
+			Fields: 
+		Fields: 
+		- Name: val
+		- Type: class ClassA
+		-Modifier: private
+		Value: ClassA
+Pre-shit
+Recursing on val
+
+				--------------------------
+				Class name: ClassA
+				--------------------------
+				Immediate superclass: java.lang.Object
+
+				Interfaces implemented: 
+
+					--------------------------
+					Class name: java.io.Serializable
+					--------------------------
+					No immediate superclass!
+					Interfaces implemented: 
+					none
+
+					Constructor metadata: 
+					none
+
+					Methods declared: 
+					none
+					Fields: 
+
+					--------------------------
+					Class name: java.lang.Runnable
+					--------------------------
+					No immediate superclass!
+					Interfaces implemented: 
+					none
+
+					Constructor metadata: 
+					none
+
+					Methods declared: 
+					-Method 1: run
+					-Exeptions thrown: 
+					Parameter types: 
+					-Access modifier: public abstract
+
+					Fields: 
+
+				Constructor metadata: 
+				-Constructor name: ClassA
+				-Access modifier: public
+				-Constructor name: ClassA
+				-Access modifier: public
+				-Parameter #1 type: int
+
+				Methods declared: 
+				-Method 1: run
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public
+
+				-Method 2: toString
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public
+
+				-Method 3: setVal
+				-Exeptions thrown: 
+				--java.lang.Exception
+				Parameter types: 
+				--int
+				-Access modifier: public
+
+				-Method 4: printSomething
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: private
+
+				-Method 5: getVal
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public
+
+
+					--------------------------
+					Class name: java.lang.Object
+					--------------------------
+					No immediate superclass!
+					Interfaces implemented: 
+					none
+
+					Constructor metadata: 
+					-Constructor name: java.lang.Object
+					-Access modifier: public
+
+					Methods declared: 
+					-Method 1: finalize
+					-Exeptions thrown: 
+					--java.lang.Throwable
+					Parameter types: 
+					-Access modifier: protected
+
+					-Method 2: wait
+					-Exeptions thrown: 
+					--java.lang.InterruptedException
+					Parameter types: 
+					-Access modifier: public final
+
+					-Method 3: wait
+					-Exeptions thrown: 
+					--java.lang.InterruptedException
+					Parameter types: 
+					--long
+					--int
+					-Access modifier: public final
+
+					-Method 4: wait
+					-Exeptions thrown: 
+					--java.lang.InterruptedException
+					Parameter types: 
+					--long
+					-Access modifier: public final native
+
+					-Method 5: equals
+					-Exeptions thrown: 
+					Parameter types: 
+					--java.lang.Object
+					-Access modifier: public
+
+					-Method 6: toString
+					-Exeptions thrown: 
+					Parameter types: 
+					-Access modifier: public
+
+					-Method 7: hashCode
+					-Exeptions thrown: 
+					Parameter types: 
+					-Access modifier: public native
+
+					-Method 8: getClass
+					-Exeptions thrown: 
+					Parameter types: 
+					-Access modifier: public final native
+
+					-Method 9: clone
+					-Exeptions thrown: 
+					--java.lang.CloneNotSupportedException
+					Parameter types: 
+					-Access modifier: protected native
+
+					-Method 10: notify
+					-Exeptions thrown: 
+					Parameter types: 
+					-Access modifier: public final native
+
+					-Method 11: notifyAll
+					-Exeptions thrown: 
+					Parameter types: 
+					-Access modifier: public final native
+
+					-Method 12: registerNatives
+					-Exeptions thrown: 
+					Parameter types: 
+					-Access modifier: private static native
+
+					Fields: 
+				Fields: 
+				- Name: val
+				- Type: int
+				-Modifier: private
+				Value: 17
+Pre-shit
+Recursing on val
+
+						--------------------------
+						Class name: int
+						--------------------------
+						No immediate superclass!
+						Interfaces implemented: 
+						none
+
+						Constructor metadata: 
+						none
+
+						Methods declared: 
+						none
+						Fields: 
+				- Name: val2
+				- Type: double
+				-Modifier: private
+				Value: 0.2
+Pre-shit
+Recursing on val2
+
+						--------------------------
+						Class name: double
+						--------------------------
+						No immediate superclass!
+						Interfaces implemented: 
+						none
+
+						Constructor metadata: 
+						none
+
+						Methods declared: 
+						none
+						Fields: 
+				- Name: val3
+				- Type: boolean
+				-Modifier: private
+				Value: true
+Pre-shit
+Recursing on val3
+
+						--------------------------
+						Class name: boolean
+						--------------------------
+						No immediate superclass!
+						Interfaces implemented: 
+						none
+
+						Constructor metadata: 
+						none
+
+						Methods declared: 
+						none
+						Fields: 
+		- Name: val2
+		- Type: class ClassA
+		-Modifier: private static
+		Value: null
+		- Name: val3
+		- Type: int
+		-Modifier: private
+		Value: 34
+Pre-shit
+Recursing on val3
+
+				--------------------------
+				Class name: int
+				--------------------------
+				No immediate superclass!
+				Interfaces implemented: 
+				none
+
+				Constructor metadata: 
+				none
+
+				Methods declared: 
+				none
+				Fields: 
+		- Name: vallarray
+		- Type: class [LClassA;
+		-Modifier: private
+Class name: [LClassA;
+Type: class ClassA
+
+Length: 10
+-Array: [null, null, null, null, null, null, null, null, null, null, ]
+	Fields: 
+	- Name: val2
+	- Type: class ClassA
+	-Modifier: private
+	Value: ClassA
+Pre-shit
+Recursing on val2
+
+			--------------------------
+			Class name: ClassA
+			--------------------------
+			Immediate superclass: java.lang.Object
+
+			Interfaces implemented: 
+
+				--------------------------
+				Class name: java.io.Serializable
+				--------------------------
+				No immediate superclass!
+				Interfaces implemented: 
+				none
+
+				Constructor metadata: 
+				none
+
+				Methods declared: 
+				none
+				Fields: 
+
+				--------------------------
+				Class name: java.lang.Runnable
+				--------------------------
+				No immediate superclass!
+				Interfaces implemented: 
+				none
+
+				Constructor metadata: 
+				none
+
+				Methods declared: 
+				-Method 1: run
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public abstract
+
+				Fields: 
+
+			Constructor metadata: 
+			-Constructor name: ClassA
+			-Access modifier: public
+			-Constructor name: ClassA
+			-Access modifier: public
+			-Parameter #1 type: int
+
+			Methods declared: 
+			-Method 1: run
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public
+
+			-Method 2: toString
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public
+
+			-Method 3: setVal
+			-Exeptions thrown: 
+			--java.lang.Exception
+			Parameter types: 
+			--int
+			-Access modifier: public
+
+			-Method 4: printSomething
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: private
+
+			-Method 5: getVal
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public
+
+
+				--------------------------
+				Class name: java.lang.Object
+				--------------------------
+				No immediate superclass!
+				Interfaces implemented: 
+				none
+
+				Constructor metadata: 
+				-Constructor name: java.lang.Object
+				-Access modifier: public
+
+				Methods declared: 
+				-Method 1: finalize
+				-Exeptions thrown: 
+				--java.lang.Throwable
+				Parameter types: 
+				-Access modifier: protected
+
+				-Method 2: wait
+				-Exeptions thrown: 
+				--java.lang.InterruptedException
+				Parameter types: 
+				-Access modifier: public final
+
+				-Method 3: wait
+				-Exeptions thrown: 
+				--java.lang.InterruptedException
+				Parameter types: 
+				--long
+				--int
+				-Access modifier: public final
+
+				-Method 4: wait
+				-Exeptions thrown: 
+				--java.lang.InterruptedException
+				Parameter types: 
+				--long
+				-Access modifier: public final native
+
+				-Method 5: equals
+				-Exeptions thrown: 
+				Parameter types: 
+				--java.lang.Object
+				-Access modifier: public
+
+				-Method 6: toString
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public
+
+				-Method 7: hashCode
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public native
+
+				-Method 8: getClass
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public final native
+
+				-Method 9: clone
+				-Exeptions thrown: 
+				--java.lang.CloneNotSupportedException
+				Parameter types: 
+				-Access modifier: protected native
+
+				-Method 10: notify
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public final native
+
+				-Method 11: notifyAll
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public final native
+
+				-Method 12: registerNatives
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: private static native
+
+				Fields: 
+			Fields: 
+			- Name: val
+			- Type: int
+			-Modifier: private
+			Value: 100
+Pre-shit
+Recursing on val
+
+					--------------------------
+					Class name: int
+					--------------------------
+					No immediate superclass!
+					Interfaces implemented: 
+					none
+
+					Constructor metadata: 
+					none
+
+					Methods declared: 
+					none
+					Fields: 
+			- Name: val2
+			- Type: double
+			-Modifier: private
+			Value: 0.2
+Pre-shit
+Recursing on val2
+
+					--------------------------
+					Class name: double
+					--------------------------
+					No immediate superclass!
+					Interfaces implemented: 
+					none
+
+					Constructor metadata: 
+					none
+
+					Methods declared: 
+					none
+					Fields: 
+			- Name: val3
+			- Type: boolean
+			-Modifier: private
+			Value: true
+Pre-shit
+Recursing on val3
+
+					--------------------------
+					Class name: boolean
+					--------------------------
+					No immediate superclass!
+					Interfaces implemented: 
+					none
+
+					Constructor metadata: 
+					none
+
+					Methods declared: 
+					none
+					Fields: 
+	- Name: val3
+	- Type: class ClassA
+	-Modifier: private
+	Value: ClassA
+Pre-shit
+Recursing on val3
+
+			--------------------------
+			Class name: ClassA
+			--------------------------
+			Immediate superclass: java.lang.Object
+
+			Interfaces implemented: 
+
+				--------------------------
+				Class name: java.io.Serializable
+				--------------------------
+				No immediate superclass!
+				Interfaces implemented: 
+				none
+
+				Constructor metadata: 
+				none
+
+				Methods declared: 
+				none
+				Fields: 
+
+				--------------------------
+				Class name: java.lang.Runnable
+				--------------------------
+				No immediate superclass!
+				Interfaces implemented: 
+				none
+
+				Constructor metadata: 
+				none
+
+				Methods declared: 
+				-Method 1: run
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public abstract
+
+				Fields: 
+
+			Constructor metadata: 
+			-Constructor name: ClassA
+			-Access modifier: public
+			-Constructor name: ClassA
+			-Access modifier: public
+			-Parameter #1 type: int
+
+			Methods declared: 
+			-Method 1: run
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public
+
+			-Method 2: toString
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public
+
+			-Method 3: setVal
+			-Exeptions thrown: 
+			--java.lang.Exception
+			Parameter types: 
+			--int
+			-Access modifier: public
+
+			-Method 4: printSomething
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: private
+
+			-Method 5: getVal
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public
+
+
+				--------------------------
+				Class name: java.lang.Object
+				--------------------------
+				No immediate superclass!
+				Interfaces implemented: 
+				none
+
+				Constructor metadata: 
+				-Constructor name: java.lang.Object
+				-Access modifier: public
+
+				Methods declared: 
+				-Method 1: finalize
+				-Exeptions thrown: 
+				--java.lang.Throwable
+				Parameter types: 
+				-Access modifier: protected
+
+				-Method 2: wait
+				-Exeptions thrown: 
+				--java.lang.InterruptedException
+				Parameter types: 
+				-Access modifier: public final
+
+				-Method 3: wait
+				-Exeptions thrown: 
+				--java.lang.InterruptedException
+				Parameter types: 
+				--long
+				--int
+				-Access modifier: public final
+
+				-Method 4: wait
+				-Exeptions thrown: 
+				--java.lang.InterruptedException
+				Parameter types: 
+				--long
+				-Access modifier: public final native
+
+				-Method 5: equals
+				-Exeptions thrown: 
+				Parameter types: 
+				--java.lang.Object
+				-Access modifier: public
+
+				-Method 6: toString
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public
+
+				-Method 7: hashCode
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public native
+
+				-Method 8: getClass
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public final native
+
+				-Method 9: clone
+				-Exeptions thrown: 
+				--java.lang.CloneNotSupportedException
+				Parameter types: 
+				-Access modifier: protected native
+
+				-Method 10: notify
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public final native
+
+				-Method 11: notifyAll
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public final native
+
+				-Method 12: registerNatives
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: private static native
+
+				Fields: 
+			Fields: 
+			- Name: val
+			- Type: int
+			-Modifier: private
+			Value: 2
+Pre-shit
+Recursing on val
+
+					--------------------------
+					Class name: int
+					--------------------------
+					No immediate superclass!
+					Interfaces implemented: 
+					none
+
+					Constructor metadata: 
+					none
+
+					Methods declared: 
+					none
+					Fields: 
+			- Name: val2
+			- Type: double
+			-Modifier: private
+			Value: 0.2
+Pre-shit
+Recursing on val2
+
+					--------------------------
+					Class name: double
+					--------------------------
+					No immediate superclass!
+					Interfaces implemented: 
+					none
+
+					Constructor metadata: 
+					none
+
+					Methods declared: 
+					none
+					Fields: 
+			- Name: val3
+			- Type: boolean
+			-Modifier: private
+			Value: true
+Pre-shit
+Recursing on val3
+
+					--------------------------
+					Class name: boolean
+					--------------------------
+					No immediate superclass!
+					Interfaces implemented: 
+					none
+
+					Constructor metadata: 
+					none
+
+					Methods declared: 
+					none
+					Fields: 
+	- Name: val4
+	- Type: class ClassA
+	-Modifier: private
+	Value: ClassA
+Pre-shit
+Recursing on val4
+
+			--------------------------
+			Class name: ClassA
+			--------------------------
+			Immediate superclass: java.lang.Object
+
+			Interfaces implemented: 
+
+				--------------------------
+				Class name: java.io.Serializable
+				--------------------------
+				No immediate superclass!
+				Interfaces implemented: 
+				none
+
+				Constructor metadata: 
+				none
+
+				Methods declared: 
+				none
+				Fields: 
+
+				--------------------------
+				Class name: java.lang.Runnable
+				--------------------------
+				No immediate superclass!
+				Interfaces implemented: 
+				none
+
+				Constructor metadata: 
+				none
+
+				Methods declared: 
+				-Method 1: run
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public abstract
+
+				Fields: 
+
+			Constructor metadata: 
+			-Constructor name: ClassA
+			-Access modifier: public
+			-Constructor name: ClassA
+			-Access modifier: public
+			-Parameter #1 type: int
+
+			Methods declared: 
+			-Method 1: run
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public
+
+			-Method 2: toString
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public
+
+			-Method 3: setVal
+			-Exeptions thrown: 
+			--java.lang.Exception
+			Parameter types: 
+			--int
+			-Access modifier: public
+
+			-Method 4: printSomething
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: private
+
+			-Method 5: getVal
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public
+
+
+				--------------------------
+				Class name: java.lang.Object
+				--------------------------
+				No immediate superclass!
+				Interfaces implemented: 
+				none
+
+				Constructor metadata: 
+				-Constructor name: java.lang.Object
+				-Access modifier: public
+
+				Methods declared: 
+				-Method 1: finalize
+				-Exeptions thrown: 
+				--java.lang.Throwable
+				Parameter types: 
+				-Access modifier: protected
+
+				-Method 2: wait
+				-Exeptions thrown: 
+				--java.lang.InterruptedException
+				Parameter types: 
+				-Access modifier: public final
+
+				-Method 3: wait
+				-Exeptions thrown: 
+				--java.lang.InterruptedException
+				Parameter types: 
+				--long
+				--int
+				-Access modifier: public final
+
+				-Method 4: wait
+				-Exeptions thrown: 
+				--java.lang.InterruptedException
+				Parameter types: 
+				--long
+				-Access modifier: public final native
+
+				-Method 5: equals
+				-Exeptions thrown: 
+				Parameter types: 
+				--java.lang.Object
+				-Access modifier: public
+
+				-Method 6: toString
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public
+
+				-Method 7: hashCode
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public native
+
+				-Method 8: getClass
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public final native
+
+				-Method 9: clone
+				-Exeptions thrown: 
+				--java.lang.CloneNotSupportedException
+				Parameter types: 
+				-Access modifier: protected native
+
+				-Method 10: notify
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public final native
+
+				-Method 11: notifyAll
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: public final native
+
+				-Method 12: registerNatives
+				-Exeptions thrown: 
+				Parameter types: 
+				-Access modifier: private static native
+
+				Fields: 
+			Fields: 
+			- Name: val
+			- Type: int
+			-Modifier: private
+			Value: 3
+Pre-shit
+Recursing on val
+
+					--------------------------
+					Class name: int
+					--------------------------
+					No immediate superclass!
+					Interfaces implemented: 
+					none
+
+					Constructor metadata: 
+					none
+
+					Methods declared: 
+					none
+					Fields: 
+			- Name: val2
+			- Type: double
+			-Modifier: private
+			Value: 0.2
+Pre-shit
+Recursing on val2
+
+					--------------------------
+					Class name: double
+					--------------------------
+					No immediate superclass!
+					Interfaces implemented: 
+					none
+
+					Constructor metadata: 
+					none
+
+					Methods declared: 
+					none
+					Fields: 
+			- Name: val3
+			- Type: boolean
+			-Modifier: private
+			Value: true
+Pre-shit
+Recursing on val3
+
+					--------------------------
+					Class name: boolean
+					--------------------------
+					No immediate superclass!
+					Interfaces implemented: 
+					none
+
+					Constructor metadata: 
+					none
+
+					Methods declared: 
+					none
+					Fields: 
+Fields: 
+- Name: val
+- Type: class ClassA
+-Modifier: private
+Value: ClassA
+Pre-shit
+Recursing on val
+
+		--------------------------
+		Class name: ClassA
+		--------------------------
+		Immediate superclass: java.lang.Object
+
+		Interfaces implemented: 
+
+			--------------------------
+			Class name: java.io.Serializable
+			--------------------------
+			No immediate superclass!
+			Interfaces implemented: 
+			none
+
+			Constructor metadata: 
+			none
+
+			Methods declared: 
+			none
+			Fields: 
+
+			--------------------------
+			Class name: java.lang.Runnable
+			--------------------------
+			No immediate superclass!
+			Interfaces implemented: 
+			none
+
+			Constructor metadata: 
+			none
+
+			Methods declared: 
+			-Method 1: run
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public abstract
+
+			Fields: 
+
+		Constructor metadata: 
+		-Constructor name: ClassA
+		-Access modifier: public
+		-Constructor name: ClassA
+		-Access modifier: public
+		-Parameter #1 type: int
+
+		Methods declared: 
+		-Method 1: run
+		-Exeptions thrown: 
+		Parameter types: 
+		-Access modifier: public
+
+		-Method 2: toString
+		-Exeptions thrown: 
+		Parameter types: 
+		-Access modifier: public
+
+		-Method 3: setVal
+		-Exeptions thrown: 
+		--java.lang.Exception
+		Parameter types: 
+		--int
+		-Access modifier: public
+
+		-Method 4: printSomething
+		-Exeptions thrown: 
+		Parameter types: 
+		-Access modifier: private
+
+		-Method 5: getVal
+		-Exeptions thrown: 
+		Parameter types: 
+		-Access modifier: public
+
+
+			--------------------------
+			Class name: java.lang.Object
+			--------------------------
+			No immediate superclass!
+			Interfaces implemented: 
+			none
+
+			Constructor metadata: 
+			-Constructor name: java.lang.Object
+			-Access modifier: public
+
+			Methods declared: 
+			-Method 1: finalize
+			-Exeptions thrown: 
+			--java.lang.Throwable
+			Parameter types: 
+			-Access modifier: protected
+
+			-Method 2: wait
+			-Exeptions thrown: 
+			--java.lang.InterruptedException
+			Parameter types: 
+			-Access modifier: public final
+
+			-Method 3: wait
+			-Exeptions thrown: 
+			--java.lang.InterruptedException
+			Parameter types: 
+			--long
+			--int
+			-Access modifier: public final
+
+			-Method 4: wait
+			-Exeptions thrown: 
+			--java.lang.InterruptedException
+			Parameter types: 
+			--long
+			-Access modifier: public final native
+
+			-Method 5: equals
+			-Exeptions thrown: 
+			Parameter types: 
+			--java.lang.Object
+			-Access modifier: public
+
+			-Method 6: toString
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public
+
+			-Method 7: hashCode
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public native
+
+			-Method 8: getClass
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public final native
+
+			-Method 9: clone
+			-Exeptions thrown: 
+			--java.lang.CloneNotSupportedException
+			Parameter types: 
+			-Access modifier: protected native
+
+			-Method 10: notify
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public final native
+
+			-Method 11: notifyAll
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public final native
+
+			-Method 12: registerNatives
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: private static native
+
+			Fields: 
+		Fields: 
+		- Name: val
+		- Type: int
+		-Modifier: private
+		Value: 3
+Pre-shit
+Recursing on val
+
+				--------------------------
+				Class name: int
+				--------------------------
+				No immediate superclass!
+				Interfaces implemented: 
+				none
+
+				Constructor metadata: 
+				none
+
+				Methods declared: 
+				none
+				Fields: 
+		- Name: val2
+		- Type: double
+		-Modifier: private
+		Value: 0.2
+Pre-shit
+Recursing on val2
+
+				--------------------------
+				Class name: double
+				--------------------------
+				No immediate superclass!
+				Interfaces implemented: 
+				none
+
+				Constructor metadata: 
+				none
+
+				Methods declared: 
+				none
+				Fields: 
+		- Name: val3
+		- Type: boolean
+		-Modifier: private
+		Value: true
+Pre-shit
+Recursing on val3
+
+				--------------------------
+				Class name: boolean
+				--------------------------
+				No immediate superclass!
+				Interfaces implemented: 
+				none
+
+				Constructor metadata: 
+				none
+
+				Methods declared: 
+				none
+				Fields: 
+- Name: val2
+- Type: class ClassA
+-Modifier: private
+Value: ClassA
+Pre-shit
+Recursing on val2
+
+		--------------------------
+		Class name: ClassA
+		--------------------------
+		Immediate superclass: java.lang.Object
+
+		Interfaces implemented: 
+
+			--------------------------
+			Class name: java.io.Serializable
+			--------------------------
+			No immediate superclass!
+			Interfaces implemented: 
+			none
+
+			Constructor metadata: 
+			none
+
+			Methods declared: 
+			none
+			Fields: 
+
+			--------------------------
+			Class name: java.lang.Runnable
+			--------------------------
+			No immediate superclass!
+			Interfaces implemented: 
+			none
+
+			Constructor metadata: 
+			none
+
+			Methods declared: 
+			-Method 1: run
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public abstract
+
+			Fields: 
+
+		Constructor metadata: 
+		-Constructor name: ClassA
+		-Access modifier: public
+		-Constructor name: ClassA
+		-Access modifier: public
+		-Parameter #1 type: int
+
+		Methods declared: 
+		-Method 1: run
+		-Exeptions thrown: 
+		Parameter types: 
+		-Access modifier: public
+
+		-Method 2: toString
+		-Exeptions thrown: 
+		Parameter types: 
+		-Access modifier: public
+
+		-Method 3: setVal
+		-Exeptions thrown: 
+		--java.lang.Exception
+		Parameter types: 
+		--int
+		-Access modifier: public
+
+		-Method 4: printSomething
+		-Exeptions thrown: 
+		Parameter types: 
+		-Access modifier: private
+
+		-Method 5: getVal
+		-Exeptions thrown: 
+		Parameter types: 
+		-Access modifier: public
+
+
+			--------------------------
+			Class name: java.lang.Object
+			--------------------------
+			No immediate superclass!
+			Interfaces implemented: 
+			none
+
+			Constructor metadata: 
+			-Constructor name: java.lang.Object
+			-Access modifier: public
+
+			Methods declared: 
+			-Method 1: finalize
+			-Exeptions thrown: 
+			--java.lang.Throwable
+			Parameter types: 
+			-Access modifier: protected
+
+			-Method 2: wait
+			-Exeptions thrown: 
+			--java.lang.InterruptedException
+			Parameter types: 
+			-Access modifier: public final
+
+			-Method 3: wait
+			-Exeptions thrown: 
+			--java.lang.InterruptedException
+			Parameter types: 
+			--long
+			--int
+			-Access modifier: public final
+
+			-Method 4: wait
+			-Exeptions thrown: 
+			--java.lang.InterruptedException
+			Parameter types: 
+			--long
+			-Access modifier: public final native
+
+			-Method 5: equals
+			-Exeptions thrown: 
+			Parameter types: 
+			--java.lang.Object
+			-Access modifier: public
+
+			-Method 6: toString
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public
+
+			-Method 7: hashCode
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public native
+
+			-Method 8: getClass
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public final native
+
+			-Method 9: clone
+			-Exeptions thrown: 
+			--java.lang.CloneNotSupportedException
+			Parameter types: 
+			-Access modifier: protected native
+
+			-Method 10: notify
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public final native
+
+			-Method 11: notifyAll
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: public final native
+
+			-Method 12: registerNatives
+			-Exeptions thrown: 
+			Parameter types: 
+			-Access modifier: private static native
+
+			Fields: 
+		Fields: 
+		- Name: val
+		- Type: int
+		-Modifier: private
+		Value: 12
+Pre-shit
+Recursing on val
+
+				--------------------------
+				Class name: int
+				--------------------------
+				No immediate superclass!
+				Interfaces implemented: 
+				none
+
+				Constructor metadata: 
+				none
+
+				Methods declared: 
+				none
+				Fields: 
+		- Name: val2
+		- Type: double
+		-Modifier: private
+		Value: 0.2
+Pre-shit
+Recursing on val2
+
+				--------------------------
+				Class name: double
+				--------------------------
+				No immediate superclass!
+				Interfaces implemented: 
+				none
+
+				Constructor metadata: 
+				none
+
+				Methods declared: 
+				none
+				Fields: 
+		- Name: val3
+		- Type: boolean
+		-Modifier: private
+		Value: true
+Pre-shit
+Recursing on val3
+
+				--------------------------
+				Class name: boolean
+				--------------------------
+				No immediate superclass!
+				Interfaces implemented: 
+				none
+
+				Constructor metadata: 
+				none
+
+				Methods declared: 
+				none
+				Fields: 
+- Name: val3
+- Type: class ClassA
+-Modifier: private
+Value: null
+======================================================

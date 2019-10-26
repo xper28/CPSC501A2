@@ -1,0 +1,224 @@
+======================================================
+Filename: script2.txt
+Running Test: ClassA
+Recursive: true
+
+--------------------------
+Class name: ClassA
+--------------------------
+Immediate superclass: java.lang.Object
+
+Interfaces implemented: 
+
+	--------------------------
+	Class name: java.io.Serializable
+	--------------------------
+	No immediate superclass!
+	Interfaces implemented: 
+	none
+
+	Constructor metadata: 
+	none
+
+	Methods declared: 
+	none
+	Fields: 
+
+	--------------------------
+	Class name: java.lang.Runnable
+	--------------------------
+	No immediate superclass!
+	Interfaces implemented: 
+	none
+
+	Constructor metadata: 
+	none
+
+	Methods declared: 
+	-Method 1: run
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: public abstract
+
+	Fields: 
+
+Constructor metadata: 
+-Constructor name: ClassA
+-Access modifier: public
+-Constructor name: ClassA
+-Access modifier: public
+-Parameter #1 type: int
+
+Methods declared: 
+-Method 1: run
+-Exeptions thrown: 
+Parameter types: 
+-Access modifier: public
+
+-Method 2: toString
+-Exeptions thrown: 
+Parameter types: 
+-Access modifier: public
+
+-Method 3: setVal
+-Exeptions thrown: 
+--java.lang.Exception
+Parameter types: 
+--int
+-Access modifier: public
+
+-Method 4: printSomething
+-Exeptions thrown: 
+Parameter types: 
+-Access modifier: private
+
+-Method 5: getVal
+-Exeptions thrown: 
+Parameter types: 
+-Access modifier: public
+
+
+	--------------------------
+	Class name: java.lang.Object
+	--------------------------
+	No immediate superclass!
+	Interfaces implemented: 
+	none
+
+	Constructor metadata: 
+	-Constructor name: java.lang.Object
+	-Access modifier: public
+
+	Methods declared: 
+	-Method 1: finalize
+	-Exeptions thrown: 
+	--java.lang.Throwable
+	Parameter types: 
+	-Access modifier: protected
+
+	-Method 2: wait
+	-Exeptions thrown: 
+	--java.lang.InterruptedException
+	Parameter types: 
+	-Access modifier: public final
+
+	-Method 3: wait
+	-Exeptions thrown: 
+	--java.lang.InterruptedException
+	Parameter types: 
+	--long
+	--int
+	-Access modifier: public final
+
+	-Method 4: wait
+	-Exeptions thrown: 
+	--java.lang.InterruptedException
+	Parameter types: 
+	--long
+	-Access modifier: public final native
+
+	-Method 5: equals
+	-Exeptions thrown: 
+	Parameter types: 
+	--java.lang.Object
+	-Access modifier: public
+
+	-Method 6: toString
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: public
+
+	-Method 7: hashCode
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: public native
+
+	-Method 8: getClass
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: public final native
+
+	-Method 9: clone
+	-Exeptions thrown: 
+	--java.lang.CloneNotSupportedException
+	Parameter types: 
+	-Access modifier: protected native
+
+	-Method 10: notify
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: public final native
+
+	-Method 11: notifyAll
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: public final native
+
+	-Method 12: registerNatives
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: private static native
+
+	Fields: 
+Fields: 
+- Name: val
+- Type: int
+-Modifier: private
+Value: 12
+Pre-shit
+Recursing on val
+
+		--------------------------
+		Class name: int
+		--------------------------
+		No immediate superclass!
+		Interfaces implemented: 
+		none
+
+		Constructor metadata: 
+		none
+
+		Methods declared: 
+		none
+		Fields: 
+- Name: val2
+- Type: double
+-Modifier: private
+Value: 0.2
+Pre-shit
+Recursing on val2
+
+		--------------------------
+		Class name: double
+		--------------------------
+		No immediate superclass!
+		Interfaces implemented: 
+		none
+
+		Constructor metadata: 
+		none
+
+		Methods declared: 
+		none
+		Fields: 
+- Name: val3
+- Type: boolean
+-Modifier: private
+Value: true
+Pre-shit
+Recursing on val3
+
+		--------------------------
+		Class name: boolean
+		--------------------------
+		No immediate superclass!
+		Interfaces implemented: 
+		none
+
+		Constructor metadata: 
+		none
+
+		Methods declared: 
+		none
+		Fields: 
+======================================================

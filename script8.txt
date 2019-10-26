@@ -1,0 +1,1007 @@
+======================================================
+Filename: script8.txt
+Running Test: Test String
+Recursive: true
+
+--------------------------
+Class name: java.lang.String
+--------------------------
+Immediate superclass: java.lang.Object
+
+Interfaces implemented: 
+
+	--------------------------
+	Class name: java.io.Serializable
+	--------------------------
+	No immediate superclass!
+	Interfaces implemented: 
+	none
+
+	Constructor metadata: 
+	none
+
+	Methods declared: 
+	none
+	Fields: 
+
+	--------------------------
+	Class name: java.lang.Comparable
+	--------------------------
+	No immediate superclass!
+	Interfaces implemented: 
+	none
+
+	Constructor metadata: 
+	none
+
+	Methods declared: 
+	-Method 1: compareTo
+	-Exeptions thrown: 
+	Parameter types: 
+	--java.lang.Object
+	-Access modifier: public abstract
+
+	Fields: 
+
+	--------------------------
+	Class name: java.lang.CharSequence
+	--------------------------
+	No immediate superclass!
+	Interfaces implemented: 
+	none
+
+	Constructor metadata: 
+	none
+
+	Methods declared: 
+	-Method 1: toString
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: public abstract
+
+	-Method 2: charAt
+	-Exeptions thrown: 
+	Parameter types: 
+	--int
+	-Access modifier: public abstract
+
+	-Method 3: length
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: public abstract
+
+	-Method 4: subSequence
+	-Exeptions thrown: 
+	Parameter types: 
+	--int
+	--int
+	-Access modifier: public abstract
+
+	-Method 5: chars
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: public
+
+	-Method 6: codePoints
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: public
+
+	-Method 7: lambda$chars$0
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: private
+
+	-Method 8: lambda$codePoints$1
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: private
+
+	Fields: 
+
+Constructor metadata: 
+-Constructor name: java.lang.String
+-Access modifier: public
+-Parameter #1 type: [B
+-Parameter #2 type: int
+-Parameter #3 type: int
+-Constructor name: java.lang.String
+-Access modifier: public
+-Parameter #1 type: [B
+-Parameter #2 type: java.nio.charset.Charset
+-Constructor name: java.lang.String
+-Access modifier: public
+-Parameter #1 type: [B
+-Parameter #2 type: java.lang.String
+-Constructor name: java.lang.String
+-Access modifier: public
+-Parameter #1 type: [B
+-Parameter #2 type: int
+-Parameter #3 type: int
+-Parameter #4 type: java.nio.charset.Charset
+-Constructor name: java.lang.String
+-Access modifier: public
+-Parameter #1 type: [B
+-Parameter #2 type: int
+-Parameter #3 type: int
+-Parameter #4 type: java.lang.String
+-Constructor name: java.lang.String
+-Access modifier: 
+-Parameter #1 type: [C
+-Parameter #2 type: boolean
+-Constructor name: java.lang.String
+-Access modifier: public
+-Parameter #1 type: java.lang.StringBuilder
+-Constructor name: java.lang.String
+-Access modifier: public
+-Parameter #1 type: java.lang.StringBuffer
+-Constructor name: java.lang.String
+-Access modifier: public
+-Parameter #1 type: [B
+-Constructor name: java.lang.String
+-Access modifier: public
+-Parameter #1 type: [I
+-Parameter #2 type: int
+-Parameter #3 type: int
+-Constructor name: java.lang.String
+-Access modifier: public
+-Constructor name: java.lang.String
+-Access modifier: public
+-Parameter #1 type: [C
+-Constructor name: java.lang.String
+-Access modifier: public
+-Parameter #1 type: java.lang.String
+-Constructor name: java.lang.String
+-Access modifier: public
+-Parameter #1 type: [C
+-Parameter #2 type: int
+-Parameter #3 type: int
+-Constructor name: java.lang.String
+-Access modifier: public
+-Parameter #1 type: [B
+-Parameter #2 type: int
+-Constructor name: java.lang.String
+-Access modifier: public
+-Parameter #1 type: [B
+-Parameter #2 type: int
+-Parameter #3 type: int
+-Parameter #4 type: int
+
+Methods declared: 
+-Method 1: equals
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.Object
+-Access modifier: public
+
+-Method 2: toString
+-Exeptions thrown: 
+Parameter types: 
+-Access modifier: public
+
+-Method 3: hashCode
+-Exeptions thrown: 
+Parameter types: 
+-Access modifier: public
+
+-Method 4: compareTo
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.String
+-Access modifier: public
+
+-Method 5: compareTo
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.Object
+-Access modifier: public volatile
+
+-Method 6: indexOf
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.String
+--int
+-Access modifier: public
+
+-Method 7: indexOf
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.String
+-Access modifier: public
+
+-Method 8: indexOf
+-Exeptions thrown: 
+Parameter types: 
+--int
+--int
+-Access modifier: public
+
+-Method 9: indexOf
+-Exeptions thrown: 
+Parameter types: 
+--int
+-Access modifier: public
+
+-Method 10: indexOf
+-Exeptions thrown: 
+Parameter types: 
+--[C
+--int
+--int
+--[C
+--int
+--int
+--int
+-Access modifier: static
+
+-Method 11: indexOf
+-Exeptions thrown: 
+Parameter types: 
+--[C
+--int
+--int
+--java.lang.String
+--int
+-Access modifier: static
+
+-Method 12: valueOf
+-Exeptions thrown: 
+Parameter types: 
+--int
+-Access modifier: public static
+
+-Method 13: valueOf
+-Exeptions thrown: 
+Parameter types: 
+--long
+-Access modifier: public static
+
+-Method 14: valueOf
+-Exeptions thrown: 
+Parameter types: 
+--float
+-Access modifier: public static
+
+-Method 15: valueOf
+-Exeptions thrown: 
+Parameter types: 
+--boolean
+-Access modifier: public static
+
+-Method 16: valueOf
+-Exeptions thrown: 
+Parameter types: 
+--[C
+-Access modifier: public static
+
+-Method 17: valueOf
+-Exeptions thrown: 
+Parameter types: 
+--[C
+--int
+--int
+-Access modifier: public static
+
+-Method 18: valueOf
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.Object
+-Access modifier: public static
+
+-Method 19: valueOf
+-Exeptions thrown: 
+Parameter types: 
+--char
+-Access modifier: public static
+
+-Method 20: valueOf
+-Exeptions thrown: 
+Parameter types: 
+--double
+-Access modifier: public static
+
+-Method 21: charAt
+-Exeptions thrown: 
+Parameter types: 
+--int
+-Access modifier: public
+
+-Method 22: checkBounds
+-Exeptions thrown: 
+Parameter types: 
+--[B
+--int
+--int
+-Access modifier: private static
+
+-Method 23: codePointAt
+-Exeptions thrown: 
+Parameter types: 
+--int
+-Access modifier: public
+
+-Method 24: codePointBefore
+-Exeptions thrown: 
+Parameter types: 
+--int
+-Access modifier: public
+
+-Method 25: codePointCount
+-Exeptions thrown: 
+Parameter types: 
+--int
+--int
+-Access modifier: public
+
+-Method 26: compareToIgnoreCase
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.String
+-Access modifier: public
+
+-Method 27: concat
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.String
+-Access modifier: public
+
+-Method 28: contains
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.CharSequence
+-Access modifier: public
+
+-Method 29: contentEquals
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.CharSequence
+-Access modifier: public
+
+-Method 30: contentEquals
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.StringBuffer
+-Access modifier: public
+
+-Method 31: copyValueOf
+-Exeptions thrown: 
+Parameter types: 
+--[C
+-Access modifier: public static
+
+-Method 32: copyValueOf
+-Exeptions thrown: 
+Parameter types: 
+--[C
+--int
+--int
+-Access modifier: public static
+
+-Method 33: endsWith
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.String
+-Access modifier: public
+
+-Method 34: equalsIgnoreCase
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.String
+-Access modifier: public
+
+-Method 35: format
+-Exeptions thrown: 
+Parameter types: 
+--java.util.Locale
+--java.lang.String
+--[Ljava.lang.Object;
+-Access modifier: public static transient
+
+-Method 36: format
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.String
+--[Ljava.lang.Object;
+-Access modifier: public static transient
+
+-Method 37: getBytes
+-Exeptions thrown: 
+Parameter types: 
+--int
+--int
+--[B
+--int
+-Access modifier: public
+
+-Method 38: getBytes
+-Exeptions thrown: 
+Parameter types: 
+--java.nio.charset.Charset
+-Access modifier: public
+
+-Method 39: getBytes
+-Exeptions thrown: 
+--java.io.UnsupportedEncodingException
+Parameter types: 
+--java.lang.String
+-Access modifier: public
+
+-Method 40: getBytes
+-Exeptions thrown: 
+Parameter types: 
+-Access modifier: public
+
+-Method 41: getChars
+-Exeptions thrown: 
+Parameter types: 
+--int
+--int
+--[C
+--int
+-Access modifier: public
+
+-Method 42: getChars
+-Exeptions thrown: 
+Parameter types: 
+--[C
+--int
+-Access modifier: 
+
+-Method 43: indexOfSupplementary
+-Exeptions thrown: 
+Parameter types: 
+--int
+--int
+-Access modifier: private
+
+-Method 44: intern
+-Exeptions thrown: 
+Parameter types: 
+-Access modifier: public native
+
+-Method 45: isEmpty
+-Exeptions thrown: 
+Parameter types: 
+-Access modifier: public
+
+-Method 46: join
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.CharSequence
+--[Ljava.lang.CharSequence;
+-Access modifier: public static transient
+
+-Method 47: join
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.CharSequence
+--java.lang.Iterable
+-Access modifier: public static
+
+-Method 48: lastIndexOf
+-Exeptions thrown: 
+Parameter types: 
+--int
+-Access modifier: public
+
+-Method 49: lastIndexOf
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.String
+-Access modifier: public
+
+-Method 50: lastIndexOf
+-Exeptions thrown: 
+Parameter types: 
+--[C
+--int
+--int
+--java.lang.String
+--int
+-Access modifier: static
+
+-Method 51: lastIndexOf
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.String
+--int
+-Access modifier: public
+
+-Method 52: lastIndexOf
+-Exeptions thrown: 
+Parameter types: 
+--int
+--int
+-Access modifier: public
+
+-Method 53: lastIndexOf
+-Exeptions thrown: 
+Parameter types: 
+--[C
+--int
+--int
+--[C
+--int
+--int
+--int
+-Access modifier: static
+
+-Method 54: lastIndexOfSupplementary
+-Exeptions thrown: 
+Parameter types: 
+--int
+--int
+-Access modifier: private
+
+-Method 55: length
+-Exeptions thrown: 
+Parameter types: 
+-Access modifier: public
+
+-Method 56: matches
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.String
+-Access modifier: public
+
+-Method 57: nonSyncContentEquals
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.AbstractStringBuilder
+-Access modifier: private
+
+-Method 58: offsetByCodePoints
+-Exeptions thrown: 
+Parameter types: 
+--int
+--int
+-Access modifier: public
+
+-Method 59: regionMatches
+-Exeptions thrown: 
+Parameter types: 
+--int
+--java.lang.String
+--int
+--int
+-Access modifier: public
+
+-Method 60: regionMatches
+-Exeptions thrown: 
+Parameter types: 
+--boolean
+--int
+--java.lang.String
+--int
+--int
+-Access modifier: public
+
+-Method 61: replace
+-Exeptions thrown: 
+Parameter types: 
+--char
+--char
+-Access modifier: public
+
+-Method 62: replace
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.CharSequence
+--java.lang.CharSequence
+-Access modifier: public
+
+-Method 63: replaceAll
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.String
+--java.lang.String
+-Access modifier: public
+
+-Method 64: replaceFirst
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.String
+--java.lang.String
+-Access modifier: public
+
+-Method 65: split
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.String
+-Access modifier: public
+
+-Method 66: split
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.String
+--int
+-Access modifier: public
+
+-Method 67: startsWith
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.String
+--int
+-Access modifier: public
+
+-Method 68: startsWith
+-Exeptions thrown: 
+Parameter types: 
+--java.lang.String
+-Access modifier: public
+
+-Method 69: subSequence
+-Exeptions thrown: 
+Parameter types: 
+--int
+--int
+-Access modifier: public
+
+-Method 70: substring
+-Exeptions thrown: 
+Parameter types: 
+--int
+-Access modifier: public
+
+-Method 71: substring
+-Exeptions thrown: 
+Parameter types: 
+--int
+--int
+-Access modifier: public
+
+-Method 72: toCharArray
+-Exeptions thrown: 
+Parameter types: 
+-Access modifier: public
+
+-Method 73: toLowerCase
+-Exeptions thrown: 
+Parameter types: 
+--java.util.Locale
+-Access modifier: public
+
+-Method 74: toLowerCase
+-Exeptions thrown: 
+Parameter types: 
+-Access modifier: public
+
+-Method 75: toUpperCase
+-Exeptions thrown: 
+Parameter types: 
+-Access modifier: public
+
+-Method 76: toUpperCase
+-Exeptions thrown: 
+Parameter types: 
+--java.util.Locale
+-Access modifier: public
+
+-Method 77: trim
+-Exeptions thrown: 
+Parameter types: 
+-Access modifier: public
+
+
+	--------------------------
+	Class name: java.lang.Object
+	--------------------------
+	No immediate superclass!
+	Interfaces implemented: 
+	none
+
+	Constructor metadata: 
+	-Constructor name: java.lang.Object
+	-Access modifier: public
+
+	Methods declared: 
+	-Method 1: finalize
+	-Exeptions thrown: 
+	--java.lang.Throwable
+	Parameter types: 
+	-Access modifier: protected
+
+	-Method 2: wait
+	-Exeptions thrown: 
+	--java.lang.InterruptedException
+	Parameter types: 
+	-Access modifier: public final
+
+	-Method 3: wait
+	-Exeptions thrown: 
+	--java.lang.InterruptedException
+	Parameter types: 
+	--long
+	--int
+	-Access modifier: public final
+
+	-Method 4: wait
+	-Exeptions thrown: 
+	--java.lang.InterruptedException
+	Parameter types: 
+	--long
+	-Access modifier: public final native
+
+	-Method 5: equals
+	-Exeptions thrown: 
+	Parameter types: 
+	--java.lang.Object
+	-Access modifier: public
+
+	-Method 6: toString
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: public
+
+	-Method 7: hashCode
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: public native
+
+	-Method 8: getClass
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: public final native
+
+	-Method 9: clone
+	-Exeptions thrown: 
+	--java.lang.CloneNotSupportedException
+	Parameter types: 
+	-Access modifier: protected native
+
+	-Method 10: notify
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: public final native
+
+	-Method 11: notifyAll
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: public final native
+
+	-Method 12: registerNatives
+	-Exeptions thrown: 
+	Parameter types: 
+	-Access modifier: private static native
+
+	Fields: 
+Fields: 
+- Name: value
+- Type: class [C
+-Modifier: private final
+Class name: [C
+Type: char
+
+Length: 11
+-Array: [T, e, s, t,  , S, t, r, i, n, g, ]
+- Name: hash
+- Type: int
+-Modifier: private
+Value: 0
+Pre-shit
+Recursing on hash
+
+		--------------------------
+		Class name: int
+		--------------------------
+		No immediate superclass!
+		Interfaces implemented: 
+		none
+
+		Constructor metadata: 
+		none
+
+		Methods declared: 
+		none
+		Fields: 
+- Name: serialVersionUID
+- Type: long
+-Modifier: private static final
+Value: -6849794470754667710
+Pre-shit
+Recursing on serialVersionUID
+
+		--------------------------
+		Class name: long
+		--------------------------
+		No immediate superclass!
+		Interfaces implemented: 
+		none
+
+		Constructor metadata: 
+		none
+
+		Methods declared: 
+		none
+		Fields: 
+- Name: serialPersistentFields
+- Type: class [Ljava.io.ObjectStreamField;
+-Modifier: private static final
+Class name: [Ljava.io.ObjectStreamField;
+Type: class java.io.ObjectStreamField
+
+Length: 0
+-Array: []
+- Name: CASE_INSENSITIVE_ORDER
+- Type: interface java.util.Comparator
+-Modifier: public static final
+Value: java.lang.String$CaseInsensitiveComparator@511d50c0
+Pre-shit
+Recursing on CASE_INSENSITIVE_ORDER
+
+		--------------------------
+		Class name: java.util.Comparator
+		--------------------------
+		No immediate superclass!
+		Interfaces implemented: 
+		none
+
+		Constructor metadata: 
+		none
+
+		Methods declared: 
+		-Method 1: equals
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.lang.Object
+		-Access modifier: public abstract
+
+		-Method 2: compare
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.lang.Object
+		--java.lang.Object
+		-Access modifier: public abstract
+
+		-Method 3: $deserializeLambda$
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.lang.invoke.SerializedLambda
+		-Access modifier: private static
+
+		-Method 4: comparing
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.util.function.Function
+		--java.util.Comparator
+		-Access modifier: public static
+
+		-Method 5: comparing
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.util.function.Function
+		-Access modifier: public static
+
+		-Method 6: comparingDouble
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.util.function.ToDoubleFunction
+		-Access modifier: public static
+
+		-Method 7: comparingInt
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.util.function.ToIntFunction
+		-Access modifier: public static
+
+		-Method 8: comparingLong
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.util.function.ToLongFunction
+		-Access modifier: public static
+
+		-Method 9: lambda$comparing$77a9974f$1
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.util.function.Function
+		--java.lang.Object
+		--java.lang.Object
+		-Access modifier: private static
+
+		-Method 10: lambda$comparing$ea9a8b3a$1
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.util.Comparator
+		--java.util.function.Function
+		--java.lang.Object
+		--java.lang.Object
+		-Access modifier: private static
+
+		-Method 11: lambda$comparingDouble$8dcf42ea$1
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.util.function.ToDoubleFunction
+		--java.lang.Object
+		--java.lang.Object
+		-Access modifier: private static
+
+		-Method 12: lambda$comparingInt$7b0bb60$1
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.util.function.ToIntFunction
+		--java.lang.Object
+		--java.lang.Object
+		-Access modifier: private static
+
+		-Method 13: lambda$comparingLong$6043328a$1
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.util.function.ToLongFunction
+		--java.lang.Object
+		--java.lang.Object
+		-Access modifier: private static
+
+		-Method 14: lambda$thenComparing$36697e65$1
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.util.Comparator
+		--java.lang.Object
+		--java.lang.Object
+		-Access modifier: private
+
+		-Method 15: naturalOrder
+		-Exeptions thrown: 
+		Parameter types: 
+		-Access modifier: public static
+
+		-Method 16: nullsFirst
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.util.Comparator
+		-Access modifier: public static
+
+		-Method 17: nullsLast
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.util.Comparator
+		-Access modifier: public static
+
+		-Method 18: reverseOrder
+		-Exeptions thrown: 
+		Parameter types: 
+		-Access modifier: public static
+
+		-Method 19: reversed
+		-Exeptions thrown: 
+		Parameter types: 
+		-Access modifier: public
+
+		-Method 20: thenComparing
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.util.function.Function
+		-Access modifier: public
+
+		-Method 21: thenComparing
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.util.Comparator
+		-Access modifier: public
+
+		-Method 22: thenComparing
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.util.function.Function
+		--java.util.Comparator
+		-Access modifier: public
+
+		-Method 23: thenComparingDouble
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.util.function.ToDoubleFunction
+		-Access modifier: public
+
+		-Method 24: thenComparingInt
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.util.function.ToIntFunction
+		-Access modifier: public
+
+		-Method 25: thenComparingLong
+		-Exeptions thrown: 
+		Parameter types: 
+		--java.util.function.ToLongFunction
+		-Access modifier: public
+
+		Fields: 
+======================================================

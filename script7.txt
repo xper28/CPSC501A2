@@ -1,0 +1,70 @@
+======================================================
+Filename: script7.txt
+Running Test: [[LClassB;@29453f44
+Recursive: true
+Class name: [[LClassB;
+Type: class [LClassB;
+
+Length: 12
+Class name: [LClassB;
+Type: class ClassB
+
+Length: 12
+-Array: [null, null, null, null, null, null, null, null, null, null, null, null, ]
+Class name: [LClassB;
+Type: class ClassB
+
+Length: 12
+-Array: [null, null, null, null, null, null, null, null, null, null, null, null, ]
+Class name: [LClassB;
+Type: class ClassB
+
+Length: 12
+-Array: [null, null, null, null, null, null, null, null, null, null, null, null, ]
+Class name: [LClassB;
+Type: class ClassB
+
+Length: 12
+-Array: [null, null, null, null, null, null, null, null, null, null, null, null, ]
+Class name: [LClassB;
+Type: class ClassB
+
+Length: 12
+-Array: [null, null, null, null, null, null, null, null, null, null, null, null, ]
+Class name: [LClassB;
+Type: class ClassB
+
+Length: 12
+-Array: [null, null, null, null, null, null, null, null, null, null, null, null, ]
+Class name: [LClassB;
+Type: class ClassB
+
+Length: 12
+-Array: [null, null, null, null, null, null, null, null, null, null, null, null, ]
+Class name: [LClassB;
+Type: class ClassB
+
+Length: 12
+-Array: [null, null, null, null, null, null, null, null, null, null, null, null, ]
+Class name: [LClassB;
+Type: class ClassB
+
+Length: 12
+-Array: [null, null, null, null, null, null, null, null, null, null, null, null, ]
+Class name: [LClassB;
+Type: class ClassB
+
+Length: 12
+-Array: [null, null, null, null, null, null, null, null, null, null, null, null, ]
+Class name: [LClassB;
+Type: class ClassB
+
+Length: 12
+-Array: [null, null, null, null, null, null, null, null, null, null, null, null, ]
+Class name: [LClassB;
+Type: class ClassB
+
+Length: 12
+-Array: [null, null, null, null, null, null, null, null, null, null, null, null, ]
+-Array: []
+======================================================
